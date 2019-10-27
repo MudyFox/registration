@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+
+
+
+<div class="swiper-container container">
+
+
+    <div class="col-2 arrows-container">
+        <div class="swiper-button-prev swiper-buttons">
+            <i class="fas fa-arrow-up"></i>
+        </div>
+        <div class="swiper-pagination swiper-nav disable">
+
+        </div>
+        <div class="swiper-button-next swiper-buttons swiper-nav disable">
+            <i class="fas fa-arrow-down"></i>
+        </div>
+    </div>
+
+
+    <div class="swiper-wrapper col-10 offset-2">
+        <h2 class="swiper-wrapper-tittle">Basic Details</h2>
+            <div class="swiper-slide ">
+                <form class="row section-form" method="post" action="">
+                    <div class="col-6 container-form">
+                        <label class="section-form__label" for="first-name-input">First Name</label>
+                        <input class="section-form__input" id="first-name-input" type="text">
+                        <label class="section-form__label" for="email-input">Email ID</label>
+                        <input class="section-form__input" id="email-input" type="text">
+                        <label class="section-form__label" for="country-select">Country</label>
+                        <select name="" id="country-select">
+                            <option value="">USA</option>
+                            <option value="">UK</option>
+                            <option value="">Canada</option>
+                        </select>
+                        <label class="section-form__label" for="phone-input">Phone Number</label>
+                        <input class="section-form__input" id="phone-input" type="text">
+                    </div>
+                    <div class="col-6 container-form">
+                        <label class="section-form__label" for="last-name-input">Last Name</label>
+                        <input  class="section-form__input" id="last-name-input" type="text">
+                        <label class="section-form__label" for="id-input">Your User ID</label>
+                        <input class="section-form__input" id="id-input" type="text">
+
+                        <div class="container-form__container-select">
+                            <div  class="">
+                                <label class="section-form__label" for="state-select">State</label>
+                                <select name="" id="state-select">
+                                    <option value="">Texas</option>
+                                    <option value="">Florida</option>
+                                    <option value="">Washington</option>
+                                </select>
+                            </div>
+                            <div class="">
+                                <label class="section-form__label" for="city-select">City</label>
+                                <select name="" id="city-select">
+                                    <option value="">Las Vegas</option>
+                                    <option value="">Chicago</option>
+                                    <option value="">Washington</option>
+                                </select>
+                            </div>
+                        </div>
+                        <input class="section-form__input" id="reference-code-input" placeholder="Reference Code" type="text">
+                    </div>
+                    <div class="footer-form col-12">
+                        <button id="button-reset" type="reset">Reset all</button>
+                        <button id="button-continue" class="swiper-button-next swiper-nav disable">Continue</button>
+                    </div>
+
+                </form>
+            </div>
+            <div class="swiper-slide"><h2>Регистрация успешно завершена</h2></div>
+    </div>
+</div>
+
+
+
+
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/swiper.min.js"></script>
+<script src="https://kit.fontawesome.com/1b1776769e.js" crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
